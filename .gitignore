@@ -1,0 +1,13 @@
+.env
+/data/raw
+/data/processed
+/logs
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+*.pbix
+.pbi/cache
+powerbi/**/.pbi/cache.abf
+powerbi/**/.pbi/localSettings.json
+.ipynb_checkpoints/
