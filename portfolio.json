@@ -1,0 +1,24 @@
+{
+  "title": "Ecuador Trade & Economy Monitor",
+  "subtitle": "¿Ecuador diversificó sus exportaciones o solo cambió el petróleo por el camarón? Pipeline de datos de punta a punta con fuentes oficiales, 2000 a la fecha.",
+  "problem": "Ecuador está dolarizado y depende de las exportaciones para obtener dólares. El proyecto mide la dependencia del petróleo, la diversificación real (HHI), la vulnerabilidad al precio del Brent y la comparación con Perú, Colombia y Chile.",
+  "stack": ["Python", "pandas", "SQL Server", "T-SQL (MERGE, vistas, procedimientos)", "SQLAlchemy", "pytest", "FastAPI", "Streamlit", "Plotly", "Power BI (PBIP, DAX)", "statsmodels", "Git"],
+  "highlights": [
+    "Arquitectura Medallion (bronze → silver 3FN → gold en estrella) en SQL Server",
+    "Extracción por API con reintentos, caché y carga incremental con watermarks",
+    "Upserts idempotentes con MERGE: ejecutar dos veces no duplica filas",
+    "Reglas de limpieza trazables y pruebas de calidad con reconciliación Python vs SQL",
+    "API REST con FastAPI y app pública bilingüe (ES/EN) en Streamlit",
+    "Decisiones de arquitectura documentadas como ADRs"
+  ],
+  "kpis": [
+    {"name": "Peso del petróleo en exportaciones", "value": null, "source": "docs/insights.md"},
+    {"name": "HHI por producto (último año)", "value": null, "source": "docs/insights.md"},
+    {"name": "Elasticidad exportaciones petroleras vs Brent", "value": null, "source": "docs/insights.md"}
+  ],
+  "findings": [],
+  "repo_url": "https://github.com/CarlosRomero55/proyecto-economia-ecuador",
+  "app_url": "APP_URL",
+  "dashboard_url": "",
+  "cover_image": "docs/img/cover.png"
+}
